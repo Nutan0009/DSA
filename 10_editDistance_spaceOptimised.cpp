@@ -8,6 +8,9 @@ int main(){
     int m = b.length();
     vector<int>prev(m+1);
     vector<int>current(m+1);
+    for(int j = 0; j <= m; j++){
+        prev[j] = j;
+    }
     for(int i = 0; i <= n; i++){
         current[0] = i; 
     }
